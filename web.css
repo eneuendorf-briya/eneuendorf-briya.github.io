@@ -1,0 +1,20 @@
+body{
+  background-color: #e0ffaf;
+}
+#circle{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 3s ease;
+}
+.hidden {
+  display: none;
+}
+.clickable:hover {
+  cursor: pointer;
+}
