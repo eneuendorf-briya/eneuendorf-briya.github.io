@@ -3,7 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="web.css">
+  <style>
+    body{
+  background-color: #e0ffaf;
+}
+#circle{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 3s ease;
+}
+.hidden {
+  display: none;
+}
+.clickable:hover {
+  cursor: pointer;
+}
+  </style>
   <title>Circle Game</title>
   <body>
     <div id="circle" class="clickable"></div>
