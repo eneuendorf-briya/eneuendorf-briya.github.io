@@ -10,9 +10,9 @@
         circle.addEventListener('click', () => {
           if (!circleClicked) {
             // Move the circle down to the bottom of the page
-            circle.style.top = '180%';
+            circle.style.top = '50%';
             circle.style.left = '50%';
-            circle.style.transform = 'translatey(500%)';
+            circle.style.transform = 'translatey(50%)';
             circleClicked = true;
 
           }
