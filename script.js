@@ -1,7 +1,7 @@
     const circle = document.getElementById('circle');
-        const square1 = document.getElementById('square1');
-        const square2 = document.getElementById('square2');
-        const square3 = document.getElementById('square3');
+        //const square1 = document.getElementById('square1');
+        //const square2 = document.getElementById('square2');
+        //const square3 = document.getElementById('square3');
     
         let circleClicked = false;
     
