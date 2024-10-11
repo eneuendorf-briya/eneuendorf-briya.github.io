@@ -1,17 +1,17 @@
-      const circle = document.getElementById('circle');
-    const square1 = document.getElementById('square1');
-    const square2 = document.getElementById('square2');
-    const square3 = document.getElementById('square3');
+const circle = document.getElementById('circle');
+const square1 = document.getElementById('square1');
+const square2 = document.getElementById('square2');
+const square3 = document.getElementById('square3');
 
-    let circleClicked = false;
+let circleClicked = false;
 
-    // Circle click event
-    circle.addEventListener('click', () => {
-      if (!circleClicked) {
-        // Move the circle down to the bottom of the page
-        circle.style.top = '180%';
-        circle.style.left = '50%';
-        circle.style.transform = 'translate(-50%, -50%)';
-        circleClicked = true;
-      }
+// Circle click event
+circle.addEventListener('click', () => {
+  if (!circleClicked) {
+    // Move the circle down to the bottom of the page
+    circle.style.top = '180%';
+    circle.style.left = '50%';
+    circle.style.transform = 'translate(-50%, -50%)';
+    circleClicked = true;
+  }
     });
