@@ -12,6 +12,7 @@
             circle.style.top = '180%';
             circle.style.left = '50%';
             circle.style.transform = 'translate(-50%, -50%)';
+            circle.style.transform = 'translate(+10%, +10%)';
             circleClicked = true;
           }
         });
