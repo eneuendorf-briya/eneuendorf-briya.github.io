@@ -1,4 +1,5 @@
     const circle = document.getElementById('circle');
+    const step1 = document.getElementById('step1');
         //const square1 = document.getElementById('square1');
         //const square2 = document.getElementById('square2');
         //const square3 = document.getElementById('square3');
@@ -13,6 +14,8 @@
             circle.style.left = '50%';
             circle.style.transform = 'translatey(50%)';
             circleClicked = true;
+
+            step1.fadeOut();
           }
         });
 
