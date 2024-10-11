@@ -1,4 +1,3 @@
-moveCircle(){
     const circle = document.getElementById('circle');
         const square1 = document.getElementById('square1');
         const square2 = document.getElementById('square2');
@@ -16,4 +15,4 @@ moveCircle(){
             circleClicked = true;
           }
         });
-}
+
