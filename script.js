@@ -12,10 +12,9 @@
             // Move the circle down to the bottom of the page
             //circle.style.top = '180%';
             //circle.style.left = '50%';
-            circle.style.transform = 'translatey(50%)';
+            circle.style.transform = 'translatey(500%)';
             circleClicked = true;
 
-            step1.fadeOut();
           }
         });
 
