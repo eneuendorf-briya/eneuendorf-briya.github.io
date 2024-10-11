@@ -12,6 +12,7 @@
             // Move the circle down to the bottom of the page
             circle.style.top = '180%';
             circle.style.left = '50%';
+            circle.style.bottom = 20%;
             //circle.style.transform = 'translatey(20%)';
             circleClicked = true;
 
