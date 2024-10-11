@@ -11,8 +11,7 @@
             // Move the circle down to the bottom of the page
             circle.style.top = '180%';
             circle.style.left = '50%';
-            circle.style.transform = 'translate(-50%, -50%)';
-            circle.style.transform = 'translate(+10%, +10%)';
+            circle.style.transform = 'translatey(50%)';
             circleClicked = true;
           }
         });
