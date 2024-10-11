@@ -11,9 +11,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  /*transform: translate(-50%, -50%);*/
   transition: all 3s ease;
-  shape-margin: 100px;
 }
 #step1{
   padding: 50px;
