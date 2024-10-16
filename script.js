@@ -41,6 +41,7 @@ circle.addEventListener('click', () => {
     circleClicked3 = true;
   } else {
   	step5.style.display = 'none';
+    step6.style.display = 'none';
     circle.style.transition = 'all 2s ease';
     circle.style.top = '0%';
     circle.style.left = '20%';
