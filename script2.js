@@ -10,9 +10,13 @@ document.addEventListener('DOMContentLoaded', function() {
 circle.addEventListener('click', () => {
   if (!circleClicked1) {
     // Circle click event
+    circle1.style.display = 'none';
+    circle2.style.display = 'none';
+      
     circle.style.transition = 'all 3s ease';
     circle.style.top = '50%';
     circle.style.left = '50%';
+    step1.style.display = 'none';
     step2.style.display = 'block';
     step3.style.display = 'block';
     }
