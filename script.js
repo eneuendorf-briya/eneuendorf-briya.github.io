@@ -4,8 +4,10 @@ const step1 = document.getElementById('step1');
 const step2= document.getElementById('step2');
 const step3 = document.getElementById('step3');
 const step4 = document.getElementById('step4');
+const step5 = document.getElementById('step5');
 let circleClicked1 = false;
 let circleClicked2 = false;
+let circleClicked3 = false;
     
 // Circle click event
 circle.addEventListener('click', () => {
@@ -27,10 +29,23 @@ circle.addEventListener('click', () => {
     step4.style.display = 'block';
     
     circleClicked2 = true;
-  } else {
+  } else if (!circleClicked3){
   	circle.style.top = '50%';
     circle.style.left = '50%';
     step3.style.display = 'none';
     step4.style.display = 'none';
+    step5.style.display = 'block';
+    
+    circleClicked3 = true;
+  } else {
+  	step5.style.display = 'none';
+    circle.style.transition = 'all 2s ease';
+    circle.style.top = '0%';
+    circle.style.left = '20%';
+    circle.style.width = '0px';
+    circle.style.height = '0px';
+    
+    window.open('google.com', '_blank').focus();
   }
+  
 });
