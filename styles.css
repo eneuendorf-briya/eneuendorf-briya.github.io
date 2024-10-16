@@ -25,16 +25,15 @@ h1{
   transition: all 3s ease;
 }
 
-#step2{
+#step2, #step3, #step5{
   display: none;
 }
-#step3{
-  display: none;
-}
+
 #step4{
   display: none;
   margin-top: 65%;
 }
+
 .hidden {
   display: none;
 }
