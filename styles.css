@@ -25,7 +25,7 @@ h1{
   transition: all 3s ease;
 }
 
-#step2, #step3, #step6{
+#step2, #step3, #step5{
   display: none;
 }
 
@@ -34,7 +34,7 @@ h1{
   margin-top: 65%;
 }
 
-#step5{
+#step6{
   display: none;
   margin-top: 65%;
 }
