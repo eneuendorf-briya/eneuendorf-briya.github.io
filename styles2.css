@@ -6,18 +6,18 @@ body{
 h1{
     padding: 50px;
 }
-#circle{
+#circle, #circle1, #circle2{
   width: 100px;
   height: 100px;
   background-color: green;
   border-radius: 50%;
   position: absolute;
   top: 50%;
-  left: 75%;
+  left: 50%;
   transition: all 3s ease;
 }
 
-#circle1{
+/*#circle1{
   width: 100px;
   height: 100px;
   background-color: green;
@@ -38,7 +38,7 @@ h1{
   left: 25%;
   transition: all 3s ease;
 }
-
+*/
 #step2{
   display: none;
 }
