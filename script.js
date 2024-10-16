@@ -5,6 +5,7 @@ const step2= document.getElementById('step2');
 const step3 = document.getElementById('step3');
 const step4 = document.getElementById('step4');
 const step5 = document.getElementById('step5');
+const step6 = document.getElementById('step6');
 let circleClicked1 = false;
 let circleClicked2 = false;
 let circleClicked3 = false;
@@ -46,7 +47,7 @@ circle.addEventListener('click', () => {
     circle.style.width = '0px';
     circle.style.height = '0px';
     
-    window.open('google.com', '_blank').focus();
+    window.open('google.com', '_blank');
   }
   
 });
