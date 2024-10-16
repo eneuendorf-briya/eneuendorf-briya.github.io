@@ -17,7 +17,7 @@ h1{
   transition: all 3s ease;
 }
 
-#circle 1{
+#circle1{
   width: 100px;
   height: 100px;
   background-color: green;
@@ -28,7 +28,7 @@ h1{
   transition: all 3s ease;
 }
 
-#circle 2{
+#circle2{
   width: 100px;
   height: 100px;
   background-color: green;
@@ -37,6 +37,18 @@ h1{
   top: 50%;
   left: 25%;
   transition: all 3s ease;
+}
+
+#step2{
+  display: none;
+}
+
+#step3{
+  display: none;
+}
+
+#step4{
+  display: none;
 }
 
 #buffer{
