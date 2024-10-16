@@ -3,7 +3,8 @@ const step6 = document.getElementById('step6');
 let circleClicked1 = false;
 
 document.addEventListener('DOMContentLoaded', function() {
-    alert("Ready!");
+    circle.style.left = '75%';
+    circle1.style.left = '25%';
 }, false);
 
 circle.addEventListener('click', () => {
