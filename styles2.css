@@ -1,0 +1,58 @@
+body{
+  background-color: #e0ffaf;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 750px;
+}
+h1{
+    padding: 50px;
+}
+#circle{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 3s ease;
+}
+
+#circle 1{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transition: all 3s ease;
+}
+
+#circle 2{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transition: all 3s ease;
+}
+
+#buffer{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transition: all 3s ease;
+}
+
+
+
+.hidden {
+  display: none;
+}
+.clickable:hover {
+  cursor: pointer;
+}
