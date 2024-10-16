@@ -10,7 +10,7 @@ circle.addEventListener('click', () => {
     circle.style.left = '50%';
     //circle.style.transform = 'translatey(20%)';
     //buffer.style.transform = 'translatey(200%)';
-    buffer.style.top = '180%';
+    buffer.style.top = '220%';
     circleClicked = true;
 
   }
