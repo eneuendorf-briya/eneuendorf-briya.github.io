@@ -2,6 +2,10 @@ const step5 = document.getElementById('step5');
 const step6 = document.getElementById('step6');
 let circleClicked1 = false;
 
+document.addEventListener('DOMContentLoaded', function() {
+    alert("Ready!");
+}, false);
+
 circle.addEventListener('click', () => {
   if (!circleClicked1) {
     // Circle click event
