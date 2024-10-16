@@ -47,6 +47,7 @@ circle.addEventListener('click', () => {
     circle.style.left = '20%';
     circle.style.width = '0px';
     circle.style.height = '0px';
+	      window.open('https://eneuendorf-briya.github.io/page2.html', '_blank');
     }
   
 });
