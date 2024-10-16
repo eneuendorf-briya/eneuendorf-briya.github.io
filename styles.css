@@ -16,7 +16,7 @@ body{
 #buffer{
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-color: none;
   border-radius: 50%;
   position: absolute;
   top: 50%;
