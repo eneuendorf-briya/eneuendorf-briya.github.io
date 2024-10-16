@@ -18,7 +18,7 @@ circle.addEventListener('click', () => {
     circle.style.left = '50%';
     step1.style.display = 'none';
     step2.style.display = 'block';
-    step3.style.display = 'block';
+    //step3.style.display = 'block';
     }
       
 });
