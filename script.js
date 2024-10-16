@@ -35,6 +35,7 @@ circle.addEventListener('click', () => {
     step3.style.display = 'none';
     step4.style.display = 'none';
     step5.style.display = 'block';
+    step6.style.display = 'block';
     
     circleClicked3 = true;
   } else {
