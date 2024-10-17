@@ -26,5 +26,5 @@ circle.addEventListener('click', () => {
         //circle.style.width = '0px';
         //circle.style.height = '0px';
     //}, 10000);
-      
+  }   
 });
