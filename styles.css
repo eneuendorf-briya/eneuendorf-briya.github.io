@@ -25,6 +25,10 @@ h1{
   transition: all 3s ease;
 }
 
+#step1{
+  text-align: center;
+}
+
 #step2, #step3, #step5, #step7{
   display: none;
 }
