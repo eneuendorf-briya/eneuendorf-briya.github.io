@@ -11,6 +11,7 @@ const step7 = document.getElementById('step7');
 let circleClicked1 = false;
 let circleClicked2 = false;
 let circleClicked3 = false;
+let circleClicked4 = false;
     
 // Circle click event
 circle.addEventListener('click', () => {
@@ -41,7 +42,7 @@ circle.addEventListener('click', () => {
     step6.style.display = 'block';
     
     circleClicked3 = true;
-  } else {
+  } else if (!circleClicked4){
   	step5.style.display = 'none';
     step6.style.display = 'none';
     circle.style.transition = 'all 2s ease';
@@ -49,7 +50,7 @@ circle.addEventListener('click', () => {
     circle.style.left = '20%';
     circle.style.width = '0px';
     circle.style.height = '0px';
-    
+    circleClicked4 = true;
     setTimeout(() => {
     	window.open('https://eneuendorf-briya.github.io/page2.html', '_blank');
       
