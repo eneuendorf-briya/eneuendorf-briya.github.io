@@ -1,5 +1,7 @@
-const step5 = document.getElementById('step5');
-const step6 = document.getElementById('step6');
+const step1 = document.getElementById('step1');
+const step2 = document.getElementById('step2');
+const step3 = document.getElementById('step3');
+const step4 = document.getElementById('step4');
 let circleClicked1 = false;
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -19,12 +21,14 @@ circle.addEventListener('click', () => {
     step1.style.display = 'none';
     step2.style.display = 'block';
     //step3.style.display = 'block';
-    /*setTimeout((){
+    setTimeout(() => {
+    		step2.style.display = 'none';
+        step3.style.display = 'block';
         circle.style.transition = 'all 2s ease';
         circle.style.top = '0%';
         circle.style.left = '20%';
         circle.style.width = '0px';
         circle.style.height = '0px';
-    }, 10000);*/
+    }, 5000);
   }   
 });
