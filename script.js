@@ -60,6 +60,10 @@ circle.addEventListener('click', () => {
       circle.style.width = '100px';
       circle.style.height = '100px';
     }, 2000);
+
+	setTimeout(() => {
+		document.title = "Click here!";
+	}, 5000);
     
     
     }
