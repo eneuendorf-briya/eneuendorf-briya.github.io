@@ -63,7 +63,7 @@ circle.addEventListener('click', () => {
 
 	setTimeout(() => {
 		document.title = "Click here!";
-	}, 5000);
+	}, 10000);
     
     
     }
