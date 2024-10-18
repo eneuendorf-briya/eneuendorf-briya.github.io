@@ -17,7 +17,7 @@ h1{
   transition: all 5s ease;
 }
 
-#step2, #step3{
+#step2, #step3, #step4{
   display: none;
 }
 
