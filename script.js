@@ -50,7 +50,6 @@ circle.addEventListener('click', () => {
     circle.style.left = '20%';
     circle.style.width = '0px';
     circle.style.height = '0px';
-    circleClicked4 = true;
     setTimeout(() => {
     	window.open('https://eneuendorf-briya.github.io/page2.html', '_blank');
       
@@ -64,8 +63,14 @@ circle.addEventListener('click', () => {
 	setTimeout(() => {
 		document.title = "Click here!";
 	}, 15000);
-    
-    
+     circleClicked4 = true;
+
+    } else{
+    	circle.style.transition = 'all 1s ease';
+      circle.style.top = '45%';
+      setTimeout(() => {
+      	circle.style.top = '50%';
+      }, 500);
     }
   
 });
