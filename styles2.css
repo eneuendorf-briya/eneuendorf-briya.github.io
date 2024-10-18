@@ -6,7 +6,7 @@ body{
 h1{
     padding: 50px;
 }
-#circle, #circle1, #circle2{
+#circle{
   width: 100px;
   height: 100px;
   background-color: green;
@@ -14,14 +14,8 @@ h1{
   position: absolute;
   top: 50%;
   left: 50%;
-  transition: all 5s ease;
+  transition: all 3s ease;
 }
-
-#step2, #step3, #step4{
-  display: none;
-}
-
-
 #buffer{
   width: 100px;
   height: 100px;
@@ -31,7 +25,19 @@ h1{
   transition: all 3s ease;
 }
 
+#step2, #step3, #step5, #step7{
+  display: none;
+}
 
+#step4{
+  display: none;
+  margin-top: 65%;
+}
+
+#step6{
+  display: none;
+  margin-top: 65%;
+}
 
 .hidden {
   display: none;
