@@ -6,6 +6,8 @@ const step3 = document.getElementById('step3');
 const step4 = document.getElementById('step4');
 const step5 = document.getElementById('step5');
 const step6 = document.getElementById('step6');
+const step7 = document.getElementById('step7');
+
 let circleClicked1 = false;
 let circleClicked2 = false;
 let circleClicked3 = false;
@@ -47,7 +49,18 @@ circle.addEventListener('click', () => {
     circle.style.left = '20%';
     circle.style.width = '0px';
     circle.style.height = '0px';
-	      window.open('https://eneuendorf-briya.github.io/page2.html', '_blank');
+    
+    setTimeout(() => {
+    	window.open('https://eneuendorf-briya.github.io/page2.html', '_blank');
+      
+      step7.style.display = 'block';
+      circle.style.top = '50%';
+      circle.style.left = '50%';
+      circle.style.width = '100px';
+      circle.style.height = '100px';
+    }, 2000);
+    
+    
     }
   
 });
