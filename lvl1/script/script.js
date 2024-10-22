@@ -51,9 +51,13 @@ circle.addEventListener('click', () => {
     circle.style.width = '0px';
     circle.style.height = '0px';
     setTimeout(() => {
-    	window.open('https://eneuendorf-briya.github.io/lvl1/page2.html', '_blank');
+    	//window.location.href
+	//window.open('https://eneuendorf-briya.github.io/lvl1/page2.html', '_blank');
       
       step7.style.display = 'block';
+
+	step7.textContent = window.location.href;
+
       circle.style.top = '50%';
       circle.style.left = '50%';
       circle.style.width = '100px';
