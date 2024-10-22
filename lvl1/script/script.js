@@ -56,7 +56,7 @@ circle.addEventListener('click', () => {
       
       step7.style.display = 'block';
 
-	step7.textContent = window.location.href;
+	step7.textContent = window.location.href + "2.html";
 
       circle.style.top = '50%';
       circle.style.left = '50%';
