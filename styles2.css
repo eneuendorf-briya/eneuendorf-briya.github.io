@@ -23,6 +23,7 @@ h1{
 
 #hand{
   display: inline;
+  padding: 20px;
   height: 50px;
 }
 
