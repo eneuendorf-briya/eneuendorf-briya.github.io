@@ -21,6 +21,10 @@ h1{
   display: none;
 }
 
+#hand{
+  display: in-line;
+  height: 100px;
+}
 
 #buffer{
   width: 100px;
