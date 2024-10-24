@@ -5,6 +5,7 @@ const step3 = document.getElementById('step3');
 const step4 = document.getElementById('step4');
 let circleClicked1 = false;
 
+
 document.addEventListener('DOMContentLoaded', function() {
     circle.style.left = '75%';
     circle1.style.left = '25%';
