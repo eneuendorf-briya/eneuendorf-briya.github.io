@@ -1,48 +1,117 @@
-body{
-  background-color: #e0ffaf;
-  font-family: Arial, Helvetica, sans-serif;
-  height: 750px;
+body {
+      margin: 0;
+      padding: 0;
+      background-color: #e0ffaf;
+      display: flex;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+      padding: 50px;
+    }
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
-h1{
-    padding: 50px;
-}
-#circle, #circle1, #circle2{
-  width: 100px;
-  height: 100px;
-  background-color: green;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: all 5s ease;
+    /* Instruction text */
+    #instructions {
+      position: absolute;
+      /*text-align: center;*/
+      top: 20px;
+      /*font-size: 1.5rem;
+      color: #333;*/
+    }
+
+    /* Drop zone styling */
+    #dropZone {
+      width: 150px;
+      height: 150px;
+      border: 3px dotted #333;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Draggable circle styling */
+    #draggableCircle {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      border-radius: 50%;
+      position: absolute;
+      top: 70%;
+      left: 20%;
+      cursor: grab;
+      z-index: 100;
+    }
+    
+  #circle1{
+    width: 100px;
+    height: 100px;
+    background-color: DarkRed;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transition: all 2s ease;
+    display: none;
 }
 
-#flex_container{
-  /*display: flex;*/
-  width: 100%;
-}
-#fake1, #fake2{
-  height: 27px;
-  width: 200px;
-  background-color: white;
-  border: 1px solid black;
-  margin-left: 40px;
-  margin-bottom: 0;
-  transition: all 1s ease;
-  display: inline-block;
-  vertical-align: middle;
+ #circle2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: none;
+    transition: all 2s ease;
 }
 
-#real_textbox{
-  height: 25px;
-  width: 200px;
-  background-color: white;
-  border: 1px solid black;
-  margin-left: 40px;
-  transition: all 1s ease;
-  display: inline-block;
+#blueCircle{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: block;
 }
 
-#step2{
-  display: none;
+#redCircle{
+    width: 100px;
+    height: 100px;
+    background-color: DarkRed;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: block;
+}
+
+#greenCircle{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: block;
+}
+
+#circleLabel{
+    text-align: center;
+    margin: 50px;
+    position: absolute;
+    top: 0;
 }
