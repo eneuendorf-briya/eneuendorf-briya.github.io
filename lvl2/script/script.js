@@ -91,7 +91,7 @@ const draggableCircle = document.getElementById('draggableCircle');
 
             /*setTimeout(() => {
           	window.open(window.location.href + 'blue.html', '_blank');
-	    }, 2000);*/
+	    }, 2000);
         }, false);
           thirdGoal = true;
         } else {
